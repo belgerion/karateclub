@@ -1,0 +1,15 @@
+body{
+	background-color: gray;
+}
+.btn-outline-success{
+	color: black;
+	background-color: white;
+	border-color: white
+}
+
+.logo{
+	border-radius: 20px;
+}
+.container{
+	background-color: white;
+}
