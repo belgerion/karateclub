@@ -13,3 +13,9 @@ body{
 .container{
 	background-color: white;
 }
+.rounded{
+	border-radius: 20px;
+}
+.katasteps{
+	font-size: initial;
+}
