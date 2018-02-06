@@ -10,14 +10,12 @@ var kataList = {
 };
 
 function output(){
-	var formattedKata = KataName.replace('%data%', kataList.kata1.name);
-	$('#kata').prepend(formattedKata);
 	for(var steps in kataList.kata1.steps){
+		var formattedKata = KataName.replace('%data%', kataList.kata1.name);
+		$('#kata').prepend(formattedKata);
 		var formattedSteps = KataSteps.replace('%data%', kataList.kata1.steps[steps]);
 		$('.name').append(formattedSteps);
 	}
-	var kataCount = Object.keys(kataList).length;
-	console.log(kataCount);
 };
 
-output();
+output(kataList);
