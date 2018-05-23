@@ -1,4 +1,4 @@
-var kataList = {
+/*var kataList = {
 	'kata1' : {
 		'name' : 'Taikyoko Shodan',
 		'steps' : ['one', 'two', 'three']
@@ -18,4 +18,4 @@ function output(){
 	}
 };
 
-output(kataList);
+output(kataList);*/

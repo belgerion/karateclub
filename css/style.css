@@ -1,6 +1,18 @@
 body{
 	background-color: gray;
 }
+.imgSize{
+	max-width: 283px;
+}
+.imgPos {
+	margin: 0 40px;
+}
+.h1Align, .captionAlign, .footerAlign{
+	text-align: center;
+}
+.footer{
+	font-size:10px;
+}
 .btn-outline-success{
 	color: black;
 	background-color: white;
