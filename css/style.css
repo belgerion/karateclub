@@ -31,3 +31,6 @@ body{
 .katasteps{
 	font-size: initial;
 }
+.linkStyle > a:link {
+	text-decoration: underline;
+}
