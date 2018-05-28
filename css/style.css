@@ -31,6 +31,7 @@ body{
 .katasteps{
 	font-size: initial;
 }
-.linkStyle > a:link {
-	text-decoration: underline;
+.captionAlign {
+	color: #007bff;
+	font-size: 100%;
 }
