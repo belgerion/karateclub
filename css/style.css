@@ -2,7 +2,7 @@ body{
 	background-color: gray;
 }
 .imgSize{
-	max-width: 283px;
+	max-width: 350px;
 }
 .imgPos {
 	margin: 0 40px;
@@ -18,7 +18,9 @@ body{
 	background-color: white;
 	border-color: white
 }
-
+.row {
+	margin: 0 0 0 0;
+}
 .logo{
 	border-radius: 20px;
 }
@@ -86,4 +88,22 @@ body{
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+.collapse {
+	display: hidden;
+}
+
+.titleStyle{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.subheadStyle {
+	font-weight: bold;
+}
+.kataName{
+	font-style: italic;
+}
+.kataSteps {
+	margin-left: 30px;
 }
