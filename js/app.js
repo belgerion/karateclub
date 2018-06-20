@@ -60,6 +60,91 @@ $(document).ready(function() {
 		$('#black1stReqs').toggleClass('collapse');
 	});
 	
+	
+	var btnTxt;
+	var btnCall;
+	
+	var yellowBtn = document.getElementById('yellowButton');	
+	yellowBtn.addEventListener('click', function(){
+		btnCall = yellowBtn;
+		btnTxt = yellowBtn.innerHTML;
+		buttonUpdate;
+	})
+	yellowBtn.addEventListener('click', buttonUpdate)
+	
+	var orangeBtn = document.getElementById('orangeButton');	
+	orangeBtn.addEventListener('click', function(){
+		btnCall = orangeBtn;
+		btnTxt = orangeBtn.innerHTML;
+		buttonUpdate;
+	})
+	orangeBtn.addEventListener('click', buttonUpdate)
+	
+	var greenBtn = document.getElementById('greenButton');	
+	greenBtn.addEventListener('click', function(){
+		btnCall = greenBtn;
+		btnTxt = greenBtn.innerHTML;
+		buttonUpdate;
+	})
+	greenBtn.addEventListener('click', buttonUpdate)
+	
+	var blueBtn = document.getElementById('blueButton');	
+	blueBtn.addEventListener('click', function(){
+		btnCall = blueBtn;
+		btnTxt = blueBtn.innerHTML;
+		buttonUpdate;
+	})
+	blueBtn.addEventListener('click', buttonUpdate);
+	
+	var purpleBtn = document.getElementById('purpleButton');	
+	purpleBtn.addEventListener('click', function(){
+		btnCall = purpleBtn;
+		btnTxt = purpleBtn.innerHTML;
+		buttonUpdate;
+	})
+	purpleBtn.addEventListener('click', buttonUpdate);
+	
+	var brown3rdBtn = document.getElementById('brown3rdButton');	
+	brown3rdBtn.addEventListener('click', function(){
+		btnCall = brown3rdBtn;
+		btnTxt = brown3rdBtn.innerHTML;
+		buttonUpdate;
+	})
+	brown3rdBtn.addEventListener('click', buttonUpdate);
+	
+	var brown2ndBtn = document.getElementById('brown2ndButton');	
+	brown2ndBtn.addEventListener('click', function(){
+		btnCall = brown2ndBtn;
+		btnTxt = brown2ndBtn.innerHTML;
+		buttonUpdate;
+	})
+	brown2ndBtn.addEventListener('click', buttonUpdate);
+	
+	var brown1stBtn = document.getElementById('brown1stButton');	
+	brown1stBtn.addEventListener('click', function(){
+		btnCall = brown1stBtn;
+		btnTxt = brown1stBtn.innerHTML;
+		buttonUpdate;
+	})
+	brown1stBtn.addEventListener('click', buttonUpdate);
+	
+	var black1stBtn = document.getElementById('black1stButton');	
+	black1stBtn.addEventListener('click', function(){
+		btnCall = black1stBtn;
+		btnTxt = black1stBtn.innerHTML;
+		buttonUpdate;
+	})
+	black1stBtn.addEventListener('click', buttonUpdate);	
+	
+	function buttonUpdate() {
+		
+		if (btnTxt === 'Show'){
+			btnCall.innerHTML = 'Hide';
+		}
+		else {
+			btnCall.innerHTML = "Show";
+		}
+	}
 });
 
 /*   
