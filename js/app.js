@@ -1,63 +1,66 @@
 $(document).ready(function() {
-	$('#whiteButton').click(function() {
-		$('#whiteReqs').toggleClass('collapse');
-	});
-	$('#whiteCollapse').click(function() {
-		$('#whiteReqs').addClass('collapse');
-	});
 	$('#yellowButton').click(function() {
 		$('#yellowReqs').toggleClass('collapse');
 	});
 	$('#yellowCollapse').click(function() {
 		$('#yellowReqs').toggleClass('collapse');
+		document.getElementById('yellowButton').innerHTML = 'Show';
 	});
 	$('#orangeButton').click(function() {
 		$('#orangeReqs').toggleClass('collapse');
 	});
 	$('#orangeCollapse').click(function() {
 		$('#orangeReqs').toggleClass('collapse');
+		document.getElementById('orangeButton').innerHTML = 'Show';
 	});
 	$('#greenButton').click(function() {
 		$('#greenReqs').toggleClass('collapse');
 	});
 	$('#greenCollapse').click(function() {
 		$('#greenReqs').toggleClass('collapse');
+		document.getElementById('greenButton').innerHTML = 'Show';
 	});
 	$('#blueButton').click(function() {
 		$('#blueReqs').toggleClass('collapse');
 	});
 	$('#blueCollapse').click(function() {
 		$('#blueReqs').toggleClass('collapse');
+		document.getElementById('blueButton').innerHTML = 'Show';
 	});
 	$('#purpleButton').click(function() {
 		$('#purpleReqs').toggleClass('collapse');
 	});
 	$('#purpleCollapse').click(function() {
 		$('#purpleReqs').toggleClass('collapse');
+		document.getElementById('purpleButton').innerHTML = 'Show';
 	});
 	$('#brown3rdButton').click(function() {
 		$('#brown3rdReqs').toggleClass('collapse');
 	});
 	$('#brown3rdCollapse').click(function() {
 		$('#brown3rdReqs').toggleClass('collapse');
+		document.getElementById('brown3rdButton').innerHTML = 'Show';
 	});
 	$('#brown2ndButton').click(function() {
 		$('#brown2ndReqs').toggleClass('collapse');
 	});
 	$('#brown2ndCollapse').click(function() {
 		$('#brown2ndReqs').toggleClass('collapse');
+		document.getElementById('brown2ndButton').innerHTML = 'Show';
 	});
 	$('#brown1stButton').click(function() {
 		$('#brown1stReqs').toggleClass('collapse');
 	});
 	$('#brown1stCollapse').click(function() {
 		$('#brown1stReqs').toggleClass('collapse');
+		document.getElementById('brown1stButton').innerHTML = 'Show';
 	});
 	$('#black1stButton').click(function() {
 		$('#black1stReqs').toggleClass('collapse');
 	});
 	$('#black1stCollapse').click(function() {
 		$('#black1stReqs').toggleClass('collapse');
+		document.getElementById('black1stButton').innerHTML = 'Show';
 	});
 	
 	
