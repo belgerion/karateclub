@@ -4,6 +4,12 @@ body{
 .imgSize{
 	max-width: 350px;
 }
+.carouselImg{
+	width: 100%;
+}
+.carouselCap {
+	text-align: center;
+}
 .imgPos {
 	margin: 0 40px;
 }
